@@ -1,0 +1,28 @@
+[
+    {
+        "username" : "rahulshettyacademy",
+        "password" : "learning",
+        "type"     : "Student",
+        "radiotype": "User",
+        "product1" : "iphone X",
+        "product2" : "Samsung Note 8"
+    },
+
+    {
+        "username" : "rahulshettyacademy",
+        "password" : "learning",
+        "type"     : "Teacher",
+        "radiotype": "Admin",
+        "product1" : "Nokia Edge",
+        "product2" : "Blackberry"
+    },
+
+    {
+        "username" : "rahulshettyacademy",
+        "password" : "learning",
+        "type"     : "Consultant",
+        "radiotype": "User",
+        "product1" : "Blackberry",
+        "product2" : "Samsung Note 8"
+    }
+]

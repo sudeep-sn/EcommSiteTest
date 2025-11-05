@@ -1,0 +1,3 @@
+ReusableComponents\Abstract.class
+MissionSelenium\PageObjects\LoginPage.class
+MissionSelenium\PageObjects\ProductCatalogue.class

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-03T21:20:54 IST" name="Suite" finished-at="2025-11-03T21:22:41 IST" duration-ms="107288">
+    <groups>
+      <group name="Sanity">
+        <method signature="Test1.LoginTestPositive3()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" name="LoginTestPositive3" class="MissionSelenium.tests.Test1"/>
+        <method signature="Test2.LoginTestPositive4()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" name="LoginTestPositive4" class="MissionSelenium.tests.Test2"/>
+        <method signature="Test2.LoginTestPositive5()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" name="LoginTestPositive5" class="MissionSelenium.tests.Test2"/>
+        <method signature="Test2.LoginTestPositive6()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" name="LoginTestPositive6" class="MissionSelenium.tests.Test2"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="Test1.LoginTestPositive2()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" name="LoginTestPositive2" class="MissionSelenium.tests.Test1"/>
+        <method signature="Test1.ProdctToCartTest(java.util.HashMap)[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" name="ProdctToCartTest" class="MissionSelenium.tests.Test1"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Test1.LoginTestPositive1()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" name="LoginTestPositive1" class="MissionSelenium.tests.Test1"/>
+        <method signature="Test2.ProdctToCartTest2(java.util.HashMap)[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" name="ProdctToCartTest2" class="MissionSelenium.tests.Test2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-11-03T21:20:54 IST" name="FullTest" finished-at="2025-11-03T21:22:41 IST" duration-ms="107288">
+      <class name="MissionSelenium.tests.Test2">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:01 IST" name="LaunchApplication" finished-at="2025-11-03T21:22:04 IST" duration-ms="2506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="LoginTestPositive4()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:04 IST" name="LoginTestPositive4" finished-at="2025-11-03T21:22:05 IST" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestPositive4 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:05 IST" name="CloseBrowser" finished-at="2025-11-03T21:22:06 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:06 IST" name="LaunchApplication" finished-at="2025-11-03T21:22:08 IST" duration-ms="2493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="LoginTestPositive5()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:08 IST" name="LoginTestPositive5" finished-at="2025-11-03T21:22:09 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestPositive5 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:09 IST" name="CloseBrowser" finished-at="2025-11-03T21:22:09 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:09 IST" name="LaunchApplication" finished-at="2025-11-03T21:22:11 IST" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="LoginTestPositive6()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:11 IST" name="LoginTestPositive6" finished-at="2025-11-03T21:22:13 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestPositive6 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:13 IST" name="CloseBrowser" finished-at="2025-11-03T21:22:13 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:13 IST" name="LaunchApplication" finished-at="2025-11-03T21:22:16 IST" duration-ms="3450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ProdctToCartTest2(java.util.HashMap)[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:16 IST" name="ProdctToCartTest2" data-provider="getData" finished-at="2025-11-03T21:22:22 IST" duration-ms="5289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=Samsung Note 8, product1=iphone X, password=learning, type=Student, username=rahulshettyacademy, radiotype=User}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProdctToCartTest2 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:22 IST" name="CloseBrowser" finished-at="2025-11-03T21:22:22 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:22 IST" name="LaunchApplication" finished-at="2025-11-03T21:22:25 IST" duration-ms="3061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ProdctToCartTest2(java.util.HashMap)[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:25 IST" name="ProdctToCartTest2" data-provider="getData" finished-at="2025-11-03T21:22:30 IST" duration-ms="5548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=Blackberry, product1=Nokia Edge, password=learning, type=Teacher, username=rahulshettyacademy, radiotype=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProdctToCartTest2 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:30 IST" name="CloseBrowser" finished-at="2025-11-03T21:22:31 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:31 IST" name="LaunchApplication" finished-at="2025-11-03T21:22:34 IST" duration-ms="3551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ProdctToCartTest2(java.util.HashMap)[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:34 IST" name="ProdctToCartTest2" data-provider="getData" finished-at="2025-11-03T21:22:41 IST" duration-ms="6458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=Samsung Note 8, product1=Blackberry, password=learning, type=Consultant, username=rahulshettyacademy, radiotype=User}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProdctToCartTest2 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test2@33d512c1]" started-at="2025-11-03T21:22:41 IST" name="CloseBrowser" finished-at="2025-11-03T21:22:41 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- MissionSelenium.tests.Test2 -->
+      <class name="MissionSelenium.tests.Test1">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:20:54 IST" name="LaunchApplication" finished-at="2025-11-03T21:21:14 IST" duration-ms="20469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="LoginTestPositive1()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:14 IST" name="LoginTestPositive1" finished-at="2025-11-03T21:21:17 IST" duration-ms="2347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestPositive1 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:17 IST" name="CloseBrowser" finished-at="2025-11-03T21:21:17 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:17 IST" name="LaunchApplication" finished-at="2025-11-03T21:21:20 IST" duration-ms="3128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="LoginTestPositive2()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:20 IST" name="LoginTestPositive2" finished-at="2025-11-03T21:21:26 IST" duration-ms="6359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestPositive2 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:26 IST" name="CloseBrowser" finished-at="2025-11-03T21:21:27 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:27 IST" name="LaunchApplication" finished-at="2025-11-03T21:21:29 IST" duration-ms="2684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="LoginTestPositive3()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:29 IST" name="LoginTestPositive3" finished-at="2025-11-03T21:21:34 IST" duration-ms="5021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestPositive3 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:34 IST" name="CloseBrowser" finished-at="2025-11-03T21:21:35 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:35 IST" name="LaunchApplication" finished-at="2025-11-03T21:21:39 IST" duration-ms="4057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ProdctToCartTest(java.util.HashMap)[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:39 IST" name="ProdctToCartTest" data-provider="getData" finished-at="2025-11-03T21:21:45 IST" duration-ms="5765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=Samsung Note 8, product1=iphone X, password=learning, type=Student, username=rahulshettyacademy, radiotype=User}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProdctToCartTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:45 IST" name="CloseBrowser" finished-at="2025-11-03T21:21:46 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:46 IST" name="LaunchApplication" finished-at="2025-11-03T21:21:48 IST" duration-ms="2843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ProdctToCartTest(java.util.HashMap)[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:48 IST" name="ProdctToCartTest" data-provider="getData" finished-at="2025-11-03T21:21:53 IST" duration-ms="4443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=Blackberry, product1=Nokia Edge, password=learning, type=Teacher, username=rahulshettyacademy, radiotype=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProdctToCartTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:53 IST" name="CloseBrowser" finished-at="2025-11-03T21:21:53 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:53 IST" name="LaunchApplication" finished-at="2025-11-03T21:21:55 IST" duration-ms="1940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ProdctToCartTest(java.util.HashMap)[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:21:55 IST" name="ProdctToCartTest" data-provider="getData" finished-at="2025-11-03T21:22:01 IST" duration-ms="6079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=Samsung Note 8, product1=Blackberry, password=learning, type=Consultant, username=rahulshettyacademy, radiotype=User}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProdctToCartTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MissionSelenium.tests.Test1@6302bbb1]" started-at="2025-11-03T21:22:01 IST" name="CloseBrowser" finished-at="2025-11-03T21:22:01 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- MissionSelenium.tests.Test1 -->
+    </test> <!-- FullTest -->
+  </suite> <!-- Suite -->
+</testng-results>
